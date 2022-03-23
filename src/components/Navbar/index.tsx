@@ -12,6 +12,13 @@ const navigation = [
   { name: 'Docs', href: 'https://docs.amaterasu.finance/overview/introduction' },
 ]
 
+
+//Add token to Metamask
+const tokenAddress = '0xc00971105e61274c8a5cd5a88fe7e037d935b513';
+const tokenSymbol = 'HelloCoin';
+const tokenDecimals = 18;
+const tokenImage = 'https://assets.codepen.io/4625073/1.jpeg';
+
 export default function Navbar() {
   return (
     <Popover as="header" className="relative">
@@ -79,7 +86,7 @@ export default function Navbar() {
                 </Popover.Button>
               </div>
             </div>
-            
+
             <div className="pt-5 pb-6">
               <div className="px-2 space-y-1">
                 {navigation.map((item) => (
