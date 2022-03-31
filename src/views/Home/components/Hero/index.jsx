@@ -56,9 +56,11 @@ export default function Hero() {
                     />
                   </div> */}
                   <div className="mt-3 sm:mt-0 sm:ml-0">
-                    <a href=""
-                      type="submit"
-                      className="block w-full py-3 px-4 rounded-full shadow bg-gradient-to-r from-orange-500 to-yellow-400 text-white font-medium hover:from-orange-600 hover:to-yellow-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-400 focus:ring-offset-gray-900"
+                    <a href="https://app.amaterasu.finance"
+                       target="_blank"
+                       rel="noopener"
+                       type="submit"
+                       className="block w-full py-3 px-4 rounded-full shadow bg-gradient-to-r from-orange-500 to-yellow-400 text-white font-medium hover:from-orange-600 hover:to-yellow-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-400 focus:ring-offset-gray-900"
                     >
                       Launch DApp
                     </a>
