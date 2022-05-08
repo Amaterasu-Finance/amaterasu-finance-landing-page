@@ -56,7 +56,7 @@ export default function Hero() {
                     />
                   </div> */}
                   <div className="mt-3 sm:mt-0 sm:ml-0">
-                    <a href="https://app.amaterasu.finance"
+                    <a href="https://app.amaterasu.fi"
                        target="_blank"
                        rel="noopener"
                        type="submit"
