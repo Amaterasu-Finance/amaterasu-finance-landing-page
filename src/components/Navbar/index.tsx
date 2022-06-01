@@ -9,13 +9,13 @@ import {
 
 const navigation = [
   { name: 'Aurora', href: 'https://aurora.dev/' },
-  { name: 'Docs', href: 'https://docs.amaterasu.finance/overview/introduction' },
+  { name: 'Docs', href: 'https://docs.amaterasu.fi/overview/readme' },
 ]
 
 
 //Add token to Metamask
 const tokenAddress = '0xc00971105e61274c8a5cd5a88fe7e037d935b513';
-const tokenSymbol = 'HelloCoin';
+const tokenSymbol = 'IZA';
 const tokenDecimals = 18;
 const tokenImage = 'https://assets.codepen.io/4625073/1.jpeg';
 
